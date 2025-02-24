@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="paystyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Please Enter your Credit card or Debit Card Details</h1>
+        <form class="payments">
+            
+            <label for="name">Card Holder Name</label>
+            <input type="text" placeholder="Enter your Name"><br>
+            <label for="card">Card Number</label>
+            <input type="text" placeholder="### ### ### ###"><br>
+            <label for="expiry">Expiry Data</label>
+            <input type="date"><br>
+            <label for="cvv">
+                CVV Number
+            </label><input type="number" maxlength="3" ><br>
+            <button type="submit" value="Pay" onclick="buys()" class="pay" style="width: auto; text-align: center; padding: 5px;">Pay Now</button>
+        </form>
+    </div>
+    <div class="order">
+		<h1>Order is Placed successfully</h1>
+	</div>
+	<a href="home.jsp"><button>Go Back</button></a>
+    <script>
+		function buys(){
+			const forms = document.querySelector(".container");
+			forms.innerHTML="<h1>Order is Placed successfully</h1>"
+			
+		}
+	</script>
+</body>
+</html>

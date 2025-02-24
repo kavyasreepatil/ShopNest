@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	background-image: url("https://imgs.search.brave.com/OriAZZw45ojujLzpVuEGNT2EQJMU7Ke9kF-VQf7KOgw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVwcmljZXJleHBy/ZXNzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wNy9l/Y29tbWVyY2Utc3Rv/Y2staW1hZ2VzLmpw/Zw");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+
+}
+
+a {
+	color: #FFFFFF;
+}
+
+.login {
+	width: 382px;
+	overflow: hidden;
+	margin: auto;
+	margin: 20 0 0 450px;
+	padding: 60px;
+	background: black;
+	opacity: 0.8;
+	border-radius: 15px;
+
+}
+
+.register {
+	width: 382px;
+	overflow: hidden;
+	margin: auto;
+	margin: 20 0 0 450px;
+	padding: 40px;
+	padding-left: 60px;
+	background: #000000;
+	opacity: 0.8;
+	border-radius: 15px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+label {
+	color: #FFFFFF;
+	font-size: 17px;
+}
+
+#textBox {
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+
+#sub {
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-radius: 17px;
+	padding-left: 7px;
+	color: blue;
+
+
+}
